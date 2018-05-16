@@ -7,10 +7,10 @@ def test_rdid():
     assert type(msg) == pynmea2.tnt.TNTHPR
     assert msg.manufacturer == 'TNT'
     assert msg.subtype == 'HPR'
-    assert msg.heading == Decimal(91.7)
+    assert msg.heading == Decimal('91.7')
     assert msg.mag_stat == 'N'
-    assert msg.pitch == Decimal(-0.0)
+    assert msg.pitch == Decimal('-0.0')
     assert msg.pitch_stat == 'N'
-    assert msg.roll == Decimal(1.6)
+    assert msg.roll == Decimal('1.6')
     assert msg.roll_stat == 'N'
     assert msg.render() == data
