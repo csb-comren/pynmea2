@@ -9,7 +9,7 @@ def test_rdid():
     assert msg.heading == 91.7
     assert msg.mag_stat == 'N'
     assert msg.pitch == -0.0
-    assert msg.pitch_stat = 'N'
+    assert msg.pitch_stat == 'N'
     assert msg.roll == 1.6
     assert msg.roll_stat == 'N'
     assert msg.render() == data
