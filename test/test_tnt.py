@@ -1,4 +1,5 @@
 import pynmea2
+from decimal import Decimal
 
 def test_rdid():
     data = '$PTNTHPR,91.7,N,-0.0,N,1.6,N*00'

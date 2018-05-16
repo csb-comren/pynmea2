@@ -1,4 +1,5 @@
 import pynmea2
+from decimal import Decimal
 
 def test_adbt():
     data = '$PADBT,000.000,f,019.04,M,000.000,F*3C'
