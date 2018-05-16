@@ -202,8 +202,6 @@ class NMEASentence(NMEASentenceBase):
         res = self.identifier() + ','.join(self.data)
         if checksum:
             res += '*%02X' % NMEASentence.checksum(res)
-        else:
-            res += '*00'        # add null checksum
         if dollar:
             res = '$' + res
         if newline:
