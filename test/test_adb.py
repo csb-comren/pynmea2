@@ -10,7 +10,7 @@ def test_adbt():
     assert msg.dpf == Decimal('0')
     assert msg.dpf_unit == 'f'
     assert msg.dpm == Decimal('19.04')
-    assert msg.dpm_unit == 'm'
+    assert msg.dpm_unit == 'M'
     assert msg.dpF == Decimal('0')
     assert msg.dpF_unit == 'F'
     assert msg.render() == data

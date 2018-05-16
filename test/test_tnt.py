@@ -13,4 +13,4 @@ def test_rdid():
     assert msg.pitch_stat == 'N'
     assert msg.roll == Decimal('1.6')
     assert msg.roll_stat == 'N'
-    assert msg.render() == data
+    assert msg.render(checksum=False) == data
