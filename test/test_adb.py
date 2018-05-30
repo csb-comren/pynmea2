@@ -7,10 +7,10 @@ def test_adbt():
     assert type(msg) == pynmea2.adb.ADBT
     assert msg.manufacturer == 'ADB'
     assert msg.subtype == 'T'
-    assert msg.dpf == Decimal('0')
-    assert msg.dpf_unit == 'f'
-    assert msg.dpm == Decimal('19.04')
-    assert msg.dpm_unit == 'M'
-    assert msg.dpF == Decimal('0')
-    assert msg.dpF_unit == 'F'
+    assert msg.depth_feet == Decimal('0')
+    assert msg.unit_feet == 'f'
+    assert msg.depth_meters == Decimal('19.04')
+    assert msg.unit_meters == 'M'
+    assert msg.depth_fathoms == Decimal('0')
+    assert msg.unit_fathoms == 'F'
     assert msg.render() == data
