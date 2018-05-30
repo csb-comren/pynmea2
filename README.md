@@ -17,10 +17,6 @@ The `pynmea2` homepage is located at http://github.com/Knio/pynmea2
 
 `pynmea2` is compatable with Python 2.7 and Python 3.3
 
-[![Build Status](https://travis-ci.org/Knio/pynmea2.png?branch=master)](https://travis-ci.org/Knio/pynmea2)
-[![Coverage Status](https://coveralls.io/repos/Knio/pynmea2/badge.png?branch=master)](https://coveralls.io/r/Knio/pynmea2?branch=master)
-[![Code Health](https://landscape.io/github/Knio/pynmea2/master/landscape.svg?style=flat)](https://landscape.io/github/Knio/pynmea2/master)
-
 Parsing
 -------
 
