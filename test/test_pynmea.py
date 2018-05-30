@@ -18,7 +18,7 @@ def test_sentence():
 
 
 def test_checksum():
-    d = data[:-2] + '00'
+    d = data[:-2] + '01'
     with pytest.raises(pynmea2.ChecksumError):
         msg = pynmea2.parse(d)
 
@@ -150,4 +150,3 @@ def test_corrupt_message():
 #   __/_|___\_
 # ~~\________/~~
 #  ~~~~~~~~~~~~
-
