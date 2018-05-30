@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.com/csb-comren/pynmea2.svg?branch=master](https://travis-ci.com/csb-comren/pynmea2)
+
 This version of `pynmea2` is a clone of [Knio's](https://github.com/Knio/pynmea2) repo. With a few tweaks.
 ### Tweaks
 * a checksum of `*00` is not checked
