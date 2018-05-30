@@ -22,10 +22,10 @@ class ADBT(ADB):
     """
     fields = (
         ("Subtype", "subtype"),
-        ("Depth in feet", "dpf", Decimal),
-        ("Depth in feet (f)", "dpf_unit"),
-        ("Depth in metres", "dpm", Decimal),
-        ("Depth in metres (m)", "dpm_unit"),
-        ("Depth in fathoms", "dpF", Decimal),
-        ("Depth in fathoms (F)", "dpF_unit"),
+        ("Depth below surface, feet", "depth_feet", Decimal),
+        ("Feet", "unit_feet"),
+        ("Depth below surface, meters", "depth_meters", Decimal),
+        ("Meters", "unit_meters"),
+        ("Depth below surface, fathoms", "depth_fathoms", Decimal),
+        ("fathoms", "unit_fathoms"),
     )
