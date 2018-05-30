@@ -1,3 +1,8 @@
+This version of `pynmea2` is a clone of [Knio's](https://github.com/Knio/pynmea2) repo. With a few tweaks.
+### Tweaks
+* a checksum of `*00` is not checked
+* added some non standard message types (PADBT, PTNTHPR)
+
 pynmea2
 =======
 
@@ -15,15 +20,6 @@ The `pynmea2` homepage is located at http://github.com/Knio/pynmea2
 [![Build Status](https://travis-ci.org/Knio/pynmea2.png?branch=master)](https://travis-ci.org/Knio/pynmea2)
 [![Coverage Status](https://coveralls.io/repos/Knio/pynmea2/badge.png?branch=master)](https://coveralls.io/r/Knio/pynmea2?branch=master)
 [![Code Health](https://landscape.io/github/Knio/pynmea2/master/landscape.svg?style=flat)](https://landscape.io/github/Knio/pynmea2/master)
-
-### Installation
-
-The recommended way to install `pynmea2` is with
-[pip](http://pypi.python.org/pypi/pip/):
-
-    pip install pynmea2
-
-[![PyPI version](https://badge.fury.io/py/pynmea2.png)](http://badge.fury.io/py/pynmea2)
 
 Parsing
 -------
